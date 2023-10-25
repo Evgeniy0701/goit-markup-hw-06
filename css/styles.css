@@ -763,12 +763,12 @@ img {
 
 /*--------------FOOTER DIV 1---------------------------*/
 .footer-container {
-  display: flex;
+  /* display: flex; */
   align-items: baseline;
 }
 
 .footer-logo-text {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer {
@@ -1250,51 +1250,48 @@ margin-bottom: 16px;
   }
 
   .footer-logo-link {
-   padding-left: 102px;
-   padding-right: 103px;
-  }
-
-  .footer-text {
-    max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .social-media-title {
-    padding-left: 112px;
-  }
-
-  .social-media-footer {
+    padding-left: 102px;
+    padding-right: 102px;
+   }
+ 
+   .footer-text {
+     max-width: 320px;
+     padding-left: 16px;
+     padding-right: 16px;
+   }
+ 
+   .social-media-title {
+     padding-left: 112px;
+   }
+ 
+   .social-media-footer {
+     display: flex;
+     gap: 16px;
+     padding-left: 56px;
+     padding-right: 56px;
+   }
+ 
+   .text-form {
+     padding-top:  72px ;
+     padding-left: 123px;
+     padding-right: 122px;
+   }
+ 
+   .custom-form-class {
     display: flex;
-    gap: 16px;
-    padding-left: 56px;
-    padding-right: 56px;
-  }
+    gap: 24px;
+    flex-wrap: wrap;
+   }
+   .custom-label-class {
+     padding-left: 16px;
+     padding-right: 16px;
+   }
+ 
+   .custom-button-class {
+     padding-right: 78px;
+   }
 
-  .text-form {
-    padding-top:  72px ;
-    padding-left: 123px;
-    padding-right: 122px;
-  }
-
-  .custom-form-class {
-   display: flex;
-   gap: 24px;
-   flex-wrap: wrap;
-  }
-  .custom-label-class {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .custom-button-class {
-    padding-right: 78px;
-  }
-
-  .modal-container{
-    max-width: 320px;
-    
-  }
+  
 
   
 
@@ -1352,7 +1349,6 @@ margin-bottom: 16px;
     
   }
 
-  
   .container {
     padding-left: 108px;
     padding-right: 108px;
@@ -1377,18 +1373,7 @@ margin-bottom: 16px;
   padding-top: 32px;
   
   }
-  .footer {
-    background: var(--navyblue, #2e2f42);
-    padding: 98px 0;
-    max-width: 768px;
-   }
-
-  .footer-container {
-    max-width: 768px;
-   
-    
-  }
-
+ 
 }
 @media screen and (min-width:1158px) {
   .container {
@@ -1450,8 +1435,7 @@ margin-bottom: 16px;
   .footer-logo-text {
   margin-right: 120px;
 }
-  .footer-text {
-  }
+
   .footer-container {
    display: flex;
    align-items: baseline;
