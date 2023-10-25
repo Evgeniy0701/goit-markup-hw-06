@@ -263,8 +263,8 @@ img {
 /*------------------ SECTION 1 CAP-----------------*/
 .here {
   background: var(--navyblue, #2e2f42);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 72px;
+  padding-bottom: 200px;
   text-align: center;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -284,7 +284,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  max-width: 496px;
+  max-width: 360px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -357,9 +357,8 @@ img {
 
 .features {
   background: #fff;
-  padding: 120px 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 96px 0;
+  
 }
 
 .features-list {
@@ -408,7 +407,8 @@ img {
   border-bottom-left-radius: 4px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  justify-content: center;
+  gap: 72px;
   list-style: none;
   padding: 0;
   width: 100%;
@@ -431,6 +431,7 @@ img {
 
 .made {
   background: var(--cloud, #f4f4fd);
+  padding: 96px 0;
 }
 
 .made-name {
@@ -526,11 +527,9 @@ img {
 
 /*----------------------- 4 PORTFOLIO MAIN CAP SECTION ------------------*/
 .section-menu {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 96px 0;
+ 
 }
-
-
 
 .list-cards {
   display: flex;
@@ -540,6 +539,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .made-title-portfolio {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -841,12 +841,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-top: 72px;
   margin-bottom: 16px;
+  display: flex;
+  
 }
 
 .social-media-footer {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .social-media-item {
@@ -885,11 +889,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  
 }
 
 .custom-form-class {
   display: flex;
   gap: 24px;
+  
 }
 
 .custom-email-class {
@@ -926,6 +932,7 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  
 }
 
 .custom-icon-class{
@@ -944,6 +951,21 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-modal {
+  color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:  24px;
+letter-spacing: 0.32px;
+padding-left: 24px;
+padding-right: 24px;
+margin-bottom: 16px;
+
 }
 
 .is-hidden {
@@ -1162,10 +1184,120 @@ img {
 @media screen and (min-width:320px) {
   .container {
     max-width: 320px;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-bottom: auto ;
+
   }
+  .icon-container-svg {
+    display: none;
+   
+  }
+  .here {
+    background: var(--navyblue, #2e2f42);
+    padding-top: 72px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people360.jpg);
+    display: block;
+    max-width: 320px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .here-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+
+  .features-subtitle {
+    color: #2e2f42;
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+  }
+
+  .footer-container {
+    max-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  .footer {
+   background: var(--navyblue, #2e2f42);
+   padding: 98px 0;
+   max-width: 500px;
+  }
+
+  .footer-logo-link {
+   padding-left: 102px;
+   padding-right: 103px;
+  }
+
+  .footer-text {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .social-media-title {
+    padding-left: 112px;
+  }
+
+  .social-media-footer {
+    display: flex;
+    gap: 16px;
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .text-form {
+    padding-top:  72px ;
+    padding-left: 123px;
+    padding-right: 122px;
+  }
+
+  .custom-form-class {
+   display: flex;
+   gap: 24px;
+   flex-wrap: wrap;
+  }
+  .custom-label-class {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .custom-button-class {
+    padding-right: 78px;
+  }
+
+  .modal-container{
+    max-width: 320px;
+    
+  }
+
   
+
 }
 
 @media screen and (min-width:768px) {
@@ -1174,6 +1306,37 @@ img {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .here {
+    background: var(--navyblue, #2e2f42);
+    padding-top: 72px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people768.jpg);
+    display: block;
+    max-width: 768px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .here-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+
   
   .features {
     background: #fff;
@@ -1181,6 +1344,8 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  
 
   .made-title {
     padding-top: 96px;
@@ -1203,19 +1368,62 @@ img {
     width: calc((100% - 140px) / 2); 
   }
 
+  .made-item {
+    width: calc((100% - 72px) / 2);
+  }
+
   .name-item-list {
   width: calc((100% - 48px) / 2);
   padding-top: 32px;
+  
+  }
+  .footer {
+    background: var(--navyblue, #2e2f42);
+    padding: 98px 0;
+    max-width: 768px;
+   }
+
+  .footer-container {
+    max-width: 768px;
+   
+    
   }
 
-  
 }
-
 @media screen and (min-width:1158px) {
   .container {
     max-width: 1158px;
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .here {
+    background: var(--navyblue, #2e2f42);
+    padding-top: 72px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people.jpg);
+    display: block;
+    max-width: 1158px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .icon-container-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
   }
 
   .features-list {
@@ -1231,6 +1439,32 @@ img {
   .name-item-list {
   width: calc((100% - 72px) / 3);
   }
-  /*-----------------SECTION 3------------------------ */
-}
 
+  .footer {
+    background: var(--navyblue, #2e2f42);
+    padding: 100px 0;
+    max-width: 1158px;
+
+  }
+
+  .footer-logo-text {
+  margin-right: 120px;
+}
+  .footer-text {
+  }
+  .footer-container {
+   display: flex;
+   align-items: baseline;
+   
+  }
+  .container-form {
+    display: flex;
+    
+  }
+  .social-media-container {
+    flex-wrap: wrap;
+  }
+  .custom-button-class {
+    display: flex;
+  }
+}
