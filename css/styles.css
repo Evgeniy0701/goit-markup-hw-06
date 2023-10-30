@@ -45,6 +45,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  
 }
 .container {
   max-width: 320px;
@@ -91,6 +92,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 17px 0;
 }
 
 .header-link-item {
@@ -1287,8 +1289,7 @@ img {
     max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
-    margin-left: auto;
-    margin-bottom: auto;
+    
   }
   .icon-container-svg {
     display: none;
@@ -1315,6 +1316,35 @@ img {
     margin: 0 auto;
   }
 
+  @media screen and (min-device-pixel-ratio: 2),
+   screen and (min-resolution: 192dpi),
+   screen and (min-resolution: 2dppx) {
+    .here {
+      background-image: 
+      url(/images/people360@2x.jpg)
+    }
+  }
+  
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+   .made-item {
+     background-image: 
+     url(/images/img4.jpg)
+     url(/images/img5.jpg)
+     url(/images/img6.jpg)
+     url(/images/img7.jpg)
+     url(/images/img8.jpg)
+     url(/images/img9.jpg)
+     url(/images/img10.jpg)
+     url(/images/img11.jpg)
+     url(/images/img12.jpg)
+     url(/images/img13.jpg)
+   }
+
+ }
+
+
   .here-title {
     color: #fff;
     font-size: 36px;
@@ -1331,7 +1361,7 @@ img {
     font-size: 36px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
@@ -1378,10 +1408,15 @@ img {
     margin-bottom: 16px;
     text-align: center;
   }
+  
+}
+
+@media screen  and (max-width:767){
   .social-media-container{
     margin-bottom: 72px;
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -1399,7 +1434,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people768.jpg);
+      url(../images/people.jpg);
     display: block;
     max-width: 768px;
     height: auto;
@@ -1409,6 +1444,39 @@ img {
     margin: 0 auto;
   }
 
+  @media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+ .here {
+   background-image: 
+   url(/images/people768@2x.jpg)
+ }
+ 
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+   .made-item {
+     background-image: 
+     url(/images/img4.jpg)
+     url(/images/img5.jpg)
+     url(/images/img6.jpg)
+     url(/images/img7.jpg)
+     url(/images/img8.jpg)
+     url(/images/img9.jpg)
+     url(/images/img10.jpg)
+     url(/images/img11.jpg)
+     url(/images/img12.jpg)
+     url(/images/img13.jpg)
+   }
+
+ }
+  .footer-container{
+    display: flex;
+    max-width: 550px;
+
+   }
   .here-title {
     color: #fff;
     font-size: 36px;
@@ -1427,44 +1495,31 @@ img {
     padding-bottom: 50px;
   }
 
-  .made-title {
-    padding-top: 96px;
-  }
-
-  .container {
-    padding-left: 108px;
-    padding-right: 108px;
-  }
-
   .features-list {
     gap: 60px 120px;
   }
 
   .features-item {
-    width: calc((100% - 140px) / 2);
+    width: 356px;
   }
 
   .made-item {
-    width: calc((100% - 72px) / 2);
+    width: 264px;
   }
 
   .name-item-list {
-    width: calc((100% - 48px) / 2);
-    padding-top: 32px;
+    width: 356px;
+    
   }
 
-  .container-footer-container {
-    max-width: 768px;
-    display: flex;
-    flex-wrap: wrap;
+  .made-list {
+    gap: 72px 24px;
   }
  
   .footer-logo-text {
-    padding-left: 108px;
+    margin-left: 24px;
   }
-  .container-form {
-    padding-left: 108px;
-  }
+  
 
   .social-media-title {
     font-size: 16px;
@@ -1477,6 +1532,8 @@ img {
     
    }
 }
+
+
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1504,6 +1561,33 @@ img {
     margin: 0 auto;
   }
 
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+   .here {
+     background-image: linear-gradient(46, 47, 66, 0,7)
+     url(/images/people.jpg)
+   }
+ }
+
+ @media screen and (min-device-pixel-ratio: 2),
+ screen and (min-resolution: 192dpi),
+ screen and (min-resolution: 2dppx) {
+  .made-item {
+    background-image: 
+    url(/images/img4.jpg)
+    url(/images/img5.jpg)
+    url(/images/img6.jpg)
+    url(/images/img7.jpg)
+    url(/images/img8.jpg)
+    url(/images/img9.jpg)
+    url(/images/img10.jpg)
+    url(/images/img11.jpg)
+    url(/images/img12.jpg)
+    url(/images/img13.jpg)
+  }
+
+}
   .icon-container-svg {
     display: flex;
     align-items: center;
@@ -1532,3 +1616,5 @@ img {
     display: flex;
   }
 }
+
+
