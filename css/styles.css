@@ -1289,6 +1289,27 @@ img {
 }
 
 /*-----------------Adaptive design-------------------*/
+@media screen and (min-width: 320px)  and (max-width:767) {
+  .social-media-container{
+    margin-bottom: 72px;
+    
+  }
+
+  .list {
+    display: none;
+  }
+
+  .header-link-item {
+    display: none;
+  }
+
+  .header-addres {
+    display: none;
+  }
+}
+
+
+
 
 @media screen and (min-width: 320px) {
   .container {
@@ -1420,26 +1441,7 @@ img {
   
 }
 
-@media screen and (min-width: 320px)  and (max-width:767) {
-  .social-media-container{
-    margin-bottom: 72px;
-    
-  }
 
-  .header-link-item {
-    display: none;
-  }
-
-  .header-addres {
-    display: none;
-  }
-}
-
-
-
-
-
-  
 
 
 @media screen and (min-width: 768px) {
@@ -1459,14 +1461,14 @@ img {
 
   .here {
     background: var(--navyblue, #2e2f42);
-    padding-top: 72px;
-    padding-bottom: 200px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     text-align: center;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people.jpg);
+      url(../images/people768@2x.jpg);
     display: block;
     max-width: 768px;
     height: auto;
@@ -1590,14 +1592,14 @@ screen and (min-resolution: 2dppx) {
 
   .here {
     background: var(--navyblue, #2e2f42);
-    padding-top: 72px;
-    padding-bottom: 200px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     text-align: center;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people.jpg);
+      url(../images/people@2x.jpg);
     display: block;
     max-width: 1440px;
     height: auto;
@@ -1669,6 +1671,10 @@ screen and (min-resolution: 2dppx) {
   .custom-button-class {
     display: flex;
   }
+}
+
+.features {
+ padding: 120px 0;
 }
 
 
