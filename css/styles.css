@@ -298,9 +298,7 @@ img {
 }
 
 .list {
-  /* display: flex; */
-  gap: 40px;
-  align-items: center;
+  
 }
 
 .link-menu {
@@ -483,8 +481,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  text-align: center;
-
 }
 
 .features-item-text {
@@ -496,9 +492,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+.list
 /*------------------ SECTION 3 TEAM-------------------------*/
-
+.team {
+  display: flex;
+}
 .made-list {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -865,7 +863,7 @@ img {
 }
 
 .footer-logo-text {
-  /* margin-right: 120px; */
+  /* margin-right: 120px;  */
   margin-bottom: 72px;
 }
 
@@ -928,7 +926,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  text-align: center;
+  
  
 }
 
@@ -985,7 +983,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
+  
 }
 
 .custom-form-class {
@@ -1289,23 +1287,34 @@ img {
 }
 
 /*-----------------Adaptive design-------------------*/
-@media screen and (min-width: 320px)  and (max-width:767) {
+@media screen and (min-width: 320px)  and (max-width:767px) {
   .social-media-container{
     margin-bottom: 72px;
     
   }
-
-  .list {
-    display: none;
+  .footer-logo-link{
+    text-align: center;
   }
-
   .header-link-item {
     display: none;
   }
-
+  .social-media-title {
+    text-align: center;
+    
+  }
+  .text-form {
+    text-align: center;
+  }
   .header-addres {
     display: none;
   }
+  .features-subtitle {
+    text-align: center;
+  }
+  .footer-logo-text {
+    /* margin-right: 24px; */
+    margin-bottom: 72px;
+}
 }
 
 
@@ -1334,7 +1343,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people360.jpg);
+      url(/images/people360.jpg);
     display: block;
     max-width: 320px;
     height: auto;
@@ -1352,7 +1361,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people360@2x.jpg)
+      url(../images/people360@2x.jpg)
     }
     
   }
@@ -1395,6 +1404,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
+    
   }
 
   .footer-container {
@@ -1431,14 +1441,17 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
-    text-align: center;
+    
+    
   }
 
   .social-media-container {
     margin-bottom: 72px;
 
   }
-  
+  .features {
+    padding: 96px 0;
+  }
 }
 
 
@@ -1515,7 +1528,7 @@ screen and (min-resolution: 2dppx) {
   }
   .features-subtitle {
     color: #2e2f42;
-    font-size: 20px;
+    font-size: 36px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -1537,7 +1550,7 @@ screen and (min-resolution: 2dppx) {
 
   .features {
     background: #fff;
-    padding: 120px 0;
+    padding: 96px 0;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -1563,11 +1576,6 @@ screen and (min-resolution: 2dppx) {
     gap: 72px 24px;
   }
  
-  .footer-logo-text {
-    margin-right: 24px;
-    margin-bottom: 72px;
-  }
-
   .footer-logo-link link {
     display: flex;
     justify-content: space-between; 
@@ -1577,11 +1585,17 @@ screen and (min-resolution: 2dppx) {
     display: none;
   }
 
- 
-
 }
 
 
+@media screen and (min-width: 768px)  and (max-width:1157px) {
+    
+  
+  .social-media-container {
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+}
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1589,6 +1603,10 @@ screen and (min-resolution: 2dppx) {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .header-addres-list {
+    display: flex;
+}
 
   .here {
     background: var(--navyblue, #2e2f42);
@@ -1656,7 +1674,7 @@ screen and (min-resolution: 2dppx) {
    
   }
 .social-media-container{
-  margin-right: 24px;
+  margin-right: 80px;
 }
   .features-item {
     width: calc((100% - 72px) / 4);
@@ -1676,5 +1694,24 @@ screen and (min-resolution: 2dppx) {
 .features {
  padding: 120px 0;
 }
+
+.features-item-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;  
+  letter-spacing: 0.32px;
+}
+
+.fatures-subtitle {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.4px;
+}
+
 
 
