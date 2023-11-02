@@ -1343,7 +1343,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people360.jpg);
+      url(../images/people360.jpg);
     display: block;
     max-width: 320px;
     height: auto;
@@ -1499,7 +1499,7 @@ screen and (min-resolution: 2dppx) {
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ),
-   url(/images/people768@2x.jpg)
+   url(../images/people768@2x.jpg)
  }
  
 }
@@ -1636,7 +1636,7 @@ screen and (min-resolution: 2dppx) {
       rgba(46, 47, 66, 0.7)
     ),
      
-     url(/images/people@2x.jpg)
+     url(../images/people@2x.jpg)
    }
  }
 
